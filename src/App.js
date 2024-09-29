@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<UserList />} />
+          <Route path="/MYCollab" element={<UserList />} />
           <Route path="/create" element={<CreateUser />} />
           <Route path="/edit/:id" element={<EditUser />} />
         </Routes>
